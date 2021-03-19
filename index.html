@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welcome</title>
+        <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body id="container">
+
+    <!--Header Section to hold the main header and the navigation-->
+    <header class="header-area min">
+        <h1>Welcome To My Sandbox</h1>
+        <!-- Navigation Section -->
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li><!--Directs to the anchor located in the about section-->
+                <li><a href="#project">Projects</a></li><!--Directs to the anchor located in the project section-->
+                <li><a href="#contact">Contact</a></li><!--Directs to the anchor located in the conect section-->
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section which holds the main content of the site-->
+    <main class="main-area min">
+        
+        <!-- Intro Section -->
+        <section class="center-content">
+            <h2>Hello I'm Jonathan Castro</h2>
+            <img class="image bio-image" src="/images/rubiks-cube.jpg" alt="picture of a rubik's cube">
+            <ul>
+                <li>Full Stack Developer Located In Texas</li>
+                <li>Part Time Trader</li>
+                <li>Full Time Coffee Drinker</li>
+                <li>With An Unhealthy Addiction To Card Games</li>
+            </ul>
+        </section>
+
+        <!-- Section to hold the About Me information-->
+        <section id="about">
+            <div class="center-content">
+                <h2 class="center-text">About Me</h2>
+                <div>
+                    <div class="split">
+                        <p class="items">I have enjoyed programming since high school exploring several languages over the years and now settling on web development. 
+                            In that time I have found a love for research and problem solving. I'm always learning something new to broaden my skills. Currently a solo 
+                        developer looking for a team to grow with.</p>
+                        <p class="items">While not banging my head against a desk trying to solve those problems I enjoy, I 
+                            distract myself with card games, watching movies and spending time with my future wife and the cats.</p>
+                    </div>
+                    <div class="center-content items">
+                        <p>If you would like to work with me I provide the following services:</p>
+                        <ul>
+                            <li>Responsive Websites</li>
+                            <li>React Based Applications</li>
+                            <li>WordPress Support</li>
+                            <li>SEO & Google Ads</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section to hold the Project information-->
+        <section id="project">
+            <div class="center-content">
+                <h2 class="center-text">Projects</h2>
+                <p>A sample of my work.</p>
+                <div class="split">
+                    <article class="center-content item">
+                        <img class="image" src="images/project-placeholder1.jpg" alt="" />
+                        <h3>Decoder Ring</h3>
+                        <p>I programmed three ciphers for a class project. The project was written in Javascript and created tests using Mocha and Chai.</p>
+                        <a href="https://github.com/jonathanlouiscastro/decoder-ring-project" target="_blank">Click to see the code base.</a>
+                        <a href="https://jonathanlouiscastro.github.io/decoder-ring-project/" target="_blank">Click to see the live app.</a>
+                    </article>
+    
+                    <article class="center-content item">
+                        <img class="image" src="images/project-placeholder2.jpg" alt="" />
+                        <h3>Project 2 Title</h3>
+                        <p>This is a placeholder discription for project 2. This is where I would put the skills used and what I learned from it.</p>
+                        <a href="https://github.com/jonathanlouiscastro" target="_blank">Placeholder link.</a>
+                        <a href="https://github.com/jonathanlouiscastro" target="_blank">Placeholder link.</a>
+                    </article>
+    
+                    <article class="center-content item">
+                        <img class="image" src="images/project-placeholder3.jpg" alt="" />
+                        <h3>Project 3 Title</h3>
+                        <p>This is a placeholder discription for project 3. This is where I would put the skills used and what I learned from it.</p>
+                        <a href="https://github.com/jonathanlouiscastro" target="_blank">Placeholder link.</a>
+                        <a href="https://github.com/jonathanlouiscastro" target="_blank">Placeholder link.</a>
+                    </article>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Section to hold my Contact Information-->
+        <section class="center-content" id="contact">
+            <h2 class="center-text">Contact Form</h2>
+            <p>If you have any questions or would like to connect fill out the form below.</p>
+            <div class="form-area split">
+                <form  action="https://formspree.io/f/xrgovnjo" method="POST">
+                    <label>
+                        Your name:
+                        <input class="form-fields" id="name" type="text" required name="name" placeholder="Your Name Here" >
+                    </label>
+                    <br>
+                    <label>
+                        Your email:
+                        <input class="form-fields" id="email" type="text" required name="_replyto" placeholder="yourname@example.com">
+                    </label>
+                    <br>   
+                    <label>
+                        Your message:
+                        <textarea class="form-fields" name="message" placeholder="Type your message here!"></textarea>
+                    </label>
+                    <br>
+                    <button class="sub-bt" type="submit">Send</button>
+                </form>
+            </div>
+            <p>You can reach me at the following links:</p>
+            <div class="icons">
+                <a href = "https://www.linkedin.com/in/jonathan-castro-351117167/" target = "_blank"><img src="images/linkedin-icon.png" alt = "Linkedin Link"/></a>
+                <a href = "https://github.com/jonathanlouiscastro" target = "_blank"><img src="images/github-icon.png" alt = "GitHub Link"/></a>
+                <a href = "mailto:jonathanlouiscastro@gmail.com" target = "_blank"><img src="images/email.png" alt = "GitHub Link"/></a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Section to hold Footer Information-->
+    <footer class="footer-area min">
+        <small>&copy; 2021  Jonathan Castro</small>
+    </footer>
+    <!-- Javascript Section will be added in the future
+    <script src="/js/script.js"></script> -->
+</body>
+</html>
+
+
